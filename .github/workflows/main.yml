@@ -1,4 +1,10 @@
-# This is a basic workflow to help you get started with Actions
+- name: Download a Build Artifact
+  uses: actions/download-artifact@v3.0.0
+  with:
+    # Artifact name
+    name: # optional
+    # Destination path
+    path: # optional# This is a basic workflow to help you get started with Actions
 
 name: CI
 
